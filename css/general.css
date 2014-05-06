@@ -49,8 +49,14 @@ body
 }
 #content
 {
-	position: absolute;
 	width: 80%;
-	top:40px;
-	left:300px;
+	margin:45px auto 0 auto;
+}
+.linktop
+{
+	margin: 10px;
+	padding left: 10px; 
+	float: right;
+	text-decoration: none;
+	color: #FFF;
 }
