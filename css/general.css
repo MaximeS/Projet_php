@@ -24,28 +24,47 @@ body
 	background-image: url("../images/fondmenu.png");
 	background: no-repeat;
 
+
 }
-.categoriesnondefilant
+.categories
 {
 	position: relative;
 	top: 100px;
 	left:20px;
 }
-.categoriesnondefilant:hover
+.categories:hover
 {
 	transition:0.2s;
 	left:30px;
 }
-.nomcategorienondefilant
+.nomcategorie
 {
 	font-size: 20px;
 	font-family: Copperplate Gothic light;
 	text-decoration: none;
+	color: #000;
 }
-.nomcategorienondefilant:hover
+.nomcategorie:hover
 {
 	transition:0.2s;
 	font-size: 22px;
+}
+.defilant
+{
+	display: none;
+	color: #000;
+	text-decoration: none;
+}
+.categories:hover .defilant
+{
+	transition:5s;
+	display: block;
+}
+.defilant .nomdefilant
+{
+	font-size: 15px;
+	font-family: Copperplate Gothic light;
+	text-decoration: none;
 }
 #content
 {

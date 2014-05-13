@@ -3,6 +3,22 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/general.css">
 <script type="text/javascript" src="js/general.js"></script>
+<?php
+	  try
+	  {
+	    $bdd = new PDO('mysql:host=localhost;dbname=projetphp', 'root', '');
+	  }
+	  catch (Exception $e)
+	  {
+	    die('Erreur : ' . $e->getMessage());
+	  }
+	  session_start();
+	  if(isset($_SESSION["id"]) && $_SESSION["id"]>0)
+	  {
+		header("location:profil.php");
+		exit;
+}
+?>
 </head>
 <body>
 <img src="">
