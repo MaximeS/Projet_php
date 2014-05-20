@@ -79,3 +79,29 @@ body
 	text-decoration: none;
 	color: #FFF;
 }
+.forminscr
+{
+	position: relative;
+	top: 50px;
+	left: 30px;
+
+}
+#forform
+{
+	position: relative;
+	top: 200px;
+	left: 600px;
+	background: url("../images/fondpapier.png");
+	width: 300px;
+	height: 250px;
+}
+.buttoninscr
+{
+	position: relative;
+	left: 85px;
+}
+.newsglobdiv
+{
+	position: relative;
+	left: 400px;
+}

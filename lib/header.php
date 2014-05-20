@@ -15,8 +15,9 @@
 	  session_start();
 	  if(isset($_SESSION["id"]) && $_SESSION["id"]>0)
 	  {
-		header("location:profil.php");
-		exit;
+	  	echo $_SESSION["id"];
+		//header("location:profil.php");
+		//exit;
 }
 ?>
 </head>
@@ -28,4 +29,3 @@
 </div>
 <?php include("lib/menu.php");?>
 
-</body>
